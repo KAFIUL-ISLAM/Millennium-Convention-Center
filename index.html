@@ -16,12 +16,12 @@
 </head>
 
 <body>
-    <header class="bg-light">
+    <header class="sticky-top bg-light">
         <section class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
-                <nav class="navbar navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-lightd-flex justify-content-between">
+                <nav class="navbar navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Millennium Convention Center</a>
+                        <a class="navbar-brand theme-color" href="#">Millennium Convention Center</a>
                     </div>
                 </nav>
 
@@ -40,10 +40,10 @@
                                 <a class="nav-link" href="#">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Booking</a>
+                                <a class="nav-link" href="#Packages">Booking</a>
                             </li>
                         </ul>
                     </div>
@@ -53,7 +53,7 @@
     </header>
     <main>
         <!-- Slider Section Start -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide white-space" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -105,27 +105,41 @@
             </button>
         </div>
         <!-- Slider Section End -->
+
         <!-- Gallery Section Start -->
-        <section class="container">
-            <h1 class="text-center my-5 theme-color">Gallery</h1>
+        <section class="container white-space2">
+            <h1 class="text-center theme-color white-space2">Gallery</h1>
             <div class="row">
-                <div class="col-3 gallery-item"><img src="images/gallery-1.png" alt=""
-                        class="img-fluid shade2"></div>
-                <div class="col-3 gallery-item"><img src="images/gallery-2.png" alt=""
-                        class="img-fluid shade2"></div>
-                <div class="col-3 gallery-item"><img src="images/gallery-3.png" alt=""
-                        class="img-fluid shade2"></div>
-                <div class="col-3 gallery-item"><img src="images/gallery-4.png" alt=""
-                        class="img-fluid shade2"></div>
+                <div class="col-3 gallery-item"><img src="images/gallery-1.png" alt="" class="img-fluid shade2"></div>
+                <div class="col-3 gallery-item"><img src="images/gallery-2.png" alt="" class="img-fluid shade2"></div>
+                <div class="col-3 gallery-item"><img src="images/gallery-3.png" alt="" class="img-fluid shade2"></div>
+                <div class="col-3 gallery-item"><img src="images/gallery-4.png" alt="" class="img-fluid shade2"></div>
             </div>
-            <div class="d-flex justify-content-end mt-3">
+            <div class="d-flex justify-content-end mt-4">
                 <button class="btn-style px-2 py-1"><img src="icons/arrow-forward 1.svg" alt=""></button>
             </div>
         </section>
+
         <!-- Gallery Section End -->
         <!-- Packages Section Start -->
-        <section class="container my-5 p-5" id="Packages">
-            <h1 class="text-center mb-5 fw-bold  theme-color">Our Packages</h1>
+        <section class="container mb-5 p-5" id="Packages">
+            <!-- Toast -->
+            <div class="toast show align-items-center position-absolute end-0" role="alert" aria-live="assertive"
+                aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body d-flex gap-2">
+                        <div>
+                            <i class="fas fa-gift fs-2"></i>
+
+                        </div>
+                        Use Code "NEWUSER22" to get 15% off on first purchase
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+            <!-- Toast -->
+            <h1 class="text-center fw-bold theme-color white-space2">Our Packages</h1>
             <div class="row gx-5 gy-3">
                 <div class="col-lg-3 col-md-6 col-sm-12 px-4 py-5 theme-color">
                     <h1 class="fw-bold">$300</h1>
@@ -185,7 +199,7 @@
         </section>
         <!-- Packages Section End -->
         <!-- Call to action Section Start -->
-        <section class="theme-bg">
+        <section class="theme-bg white-space2" id="contact">
             <div class="container p-5">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-9 text-center text-lg-start text-light fw-bold">
@@ -195,7 +209,7 @@
                             mollit anim id est laborum.</p>
                     </div>
                     <div class="col-lg-3 text-center">
-                        <a class="btn3-style theme-color px-4 py-2" href="">Call To Action</a>
+                        <a class="btn3-style theme-color px-4 py-2">Call To Action</a>
                     </div>
                 </div>
             </div>
@@ -203,7 +217,7 @@
         <!-- Call to action Section End -->
 
         <!-- FAQ Section Start -->
-        <section class="container my-5">
+        <section class="container white-space2">
             <h1 class="text-center theme-color my-5">Frequently Asked Questions</h1>
             <div class="d-flex gap-4 flex-lg-row flex-md-column flex-column">
                 <div class="accordion w-100" id="accordionExample">

@@ -14,7 +14,7 @@ body {
 }
 
 .theme-bg {
-   background-image:linear-gradient(to right, #253898, #5737D6);
+    background-image: linear-gradient(to right, #253898, #5737D6);
 }
 
 .shade2 {
@@ -39,12 +39,26 @@ body {
     font-weight: bold;
     color: #FFFFFF;
 }
-.btn3-style{
+
+.btn3-style {
     font-size: 18px;
     text-decoration: none;
     background-color: #FFFFFF;
     border-radius: 5px;
 }
+
+.white-space {
+    margin-bottom: 10rem;
+}
+
+.white-space2 {
+    margin-bottom: 5rem;
+}
+
+.toast-body {
+    border-left: #3944F7 5px solid;
+}
+
 #offer-pack button {
     color: #3944F7;
     background-color: #FFFFFF;
@@ -61,6 +75,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: right;
 }
-footer{
-    background-color:#0A0826 ;
+
+footer {
+    background-color: #0A0826;
 }
