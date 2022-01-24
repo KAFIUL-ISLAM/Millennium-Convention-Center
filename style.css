@@ -12,16 +12,55 @@ body {
     color: #0A0826;
     font-weight: bold;
 }
-.theme-background{
-    background-color:#0A0826 ;
+
+.theme-bg {
+   background-image:linear-gradient(to right, #253898, #5737D6);
 }
+
 .shade2 {
     border: 3px solid #3944F7;
     border-radius: 5px;
+}
+
+.shade2-bg {
+    background-color: #3944F7;
 }
 
 .btn-style {
     border: none;
     border-radius: 5px;
     background-color: #3944F7;
+}
+
+.btn2-style {
+    border: none;
+    border-radius: 25px;
+    background-color: #3944F7;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.btn3-style{
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+#offer-pack button {
+    color: #3944F7;
+    background-color: #FFFFFF;
+}
+
+#offer-pack {
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 10px rgba(128, 128, 128, 0.513);
+    position: relative;
+    left: -10px;
+    top: -30px;
+    background-image: url(icons/watermark.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+footer{
+    background-color:#0A0826 ;
 }
